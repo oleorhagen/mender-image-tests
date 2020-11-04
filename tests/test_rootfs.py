@@ -18,7 +18,7 @@ import os
 
 import pytest
 
-from common import make_tempdir
+from test_helpers.common import make_tempdir
 
 
 class TestRootfs:

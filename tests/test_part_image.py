@@ -22,9 +22,9 @@ import tempfile
 
 import pytest
 
-from common import make_tempdir
+from test_helpers.common import make_tempdir
 
-from helpers import Helpers
+from test_helpers.helpers import Helpers
 
 
 def align_up(bytes, alignment):
